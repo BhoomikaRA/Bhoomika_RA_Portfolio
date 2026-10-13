@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhoomika R A · Front-End Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <div class="logo">Bhoomika</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="btn-hire header-hire">Hire Me</a>
+
+        <!-- Hamburger menu button (visible on mobile / tablet) -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar" id="sidebar" aria-hidden="true">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">Bhoomika</span>
+            <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <ul class="sidebar-nav">
+            <li><a href="#home"       class="sidebar-link"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"      class="sidebar-link"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"     class="sidebar-link"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#experience" class="sidebar-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#projects"   class="sidebar-link"><i class="fas fa-folder-open"></i> Projects</a></li>
+            <li><a href="#education"  class="sidebar-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#contact"    class="sidebar-link"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="#contact" class="btn-hire sidebar-link" style="color:#fff;">Hire Me</a>
+            <div class="sidebar-socials">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/bhoomikara" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:bhoomikara916@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Sidebar overlay / backdrop -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="badge-available">• Available for Full-Time Front-End / Web Developer Opportunities</div>
+        <h1>BHOOMIKA R A</h1>
+        <div class="hero-subtitle">Front-End Developer</div>
+        <h2>I Build Responsive & Interactive Web Experiences.</h2>
+        <p class="hero-description">
+            An MCA final-year developer with hands-on experience in HTML, CSS and JavaScript, passionate about creating responsive, interactive and user-friendly web experiences.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">Explore My Work &rarr;</a>
+            <a href="#contact" class="btn-secondary">Let's Connect</a>
+        </div>
+        <div class="scroll-text">SCROLL</div>
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/bhoomikara" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am a BCA graduate and MCA final-year student with hands-on experience through web development internships and personal projects. My primary interest is Front-End Development, where I enjoy building responsive layouts, interactive interfaces and user-friendly web experiences using HTML, CSS and JavaScript.
+        </p>
+
+        <div class="location-tag"><i class="fas fa-map-marker-alt" style="color: var(--accent-pink);"></i> Tumkur, Karnataka, India</div>
+
+        <div class="about-stats">
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Internships</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8.25</div>
+                <div class="stat-label">BCA CGPA</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2026</div>
+                <div class="stat-label">Available From</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Core Technologies</h3>
+                <div class="tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript ES6+</span>
+                    <span class="tag">Responsive Web Design</span>
+                    <span class="tag">DOM Manipulation</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">VS Code</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI-Assisted Development</h3>
+                <div class="tags">
+                    <span class="tag">ChatGPT</span>
+                    <span class="tag">Google Gemini</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Design Tools</h3>
+                <div class="tags">
+                    <span class="tag">Canva</span>
+                    <span class="tag">Adobe Photoshop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WHAT I BUILD ================= -->
+    <section id="what-i-build">
+        <span class="section-tag">Specialisations</span>
+        <h2 class="section-title">What I Build</h2>
+        <div class="build-tags">
+            <div class="build-tag">Responsive Websites</div>
+            <div class="build-tag">Interactive Web Interfaces</div>
+            <div class="build-tag">Landing Pages</div>
+            <div class="build-tag">Travel Websites</div>
+            <div class="build-tag">User-Friendly Interfaces</div>
+            <div class="build-tag">User-Focused Design</div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience">
+        <span class="section-tag">Where I've Worked</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-card">
+                <h3>Full Stack Web Development Intern</h3>
+                <div class="company">Unified Mentors Pvt. Ltd. (Remote)</div>
+                <div class="date">Aug 2025 – Nov 2025</div>
+                <ul>
+                    <li>Built and styled 5+ responsive web pages using HTML, CSS and JavaScript.</li>
+                    <li>Created layouts for mobile, tablet and desktop.</li>
+                    <li>Implemented interactive forms, navigation and dynamic UI behaviour.</li>
+                    <li>Used JavaScript DOM manipulation and events.</li>
+                    <li>Used CSS Flexbox and Grid for responsive layouts.</li>
+                </ul>
+            </div>
+            <div class="timeline-card">
+                <h3>Front-End Development Intern</h3>
+                <div class="company">Cognifyz Technologies (Remote)</div>
+                <div class="date">Jul 2025 – Aug 2025</div>
+                <ul>
+                    <li>Created responsive layouts using HTML, CSS and JavaScript.</li>
+                    <li>Developed interactive UI elements.</li>
+                    <li>Implemented hover states and CSS transitions.</li>
+                    <li>Worked on responsive layout issues using media queries.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div>
+                    <div class="project-header">
+                        <span class="project-repo">bhoomikara.github.io/Bhoomika_Portfolio_</span>
+                        <span class="project-number">01</span>
+                    </div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>Responsive personal portfolio website with UI animations and an EmailJS contact form.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">EmailJS</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://bhoomikara.github.io/Bhoomika_Portfolio_/" target="_blank">Live Demo &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div>
+                    <div class="project-header">
+                        <span class="project-repo">bhoomikara.github.io/Tourist_Travel_</span>
+                        <span class="project-number">02</span>
+                    </div>
+                    <h3>Tourist Travel Website</h3>
+                    <p>Responsive multi-page travel website featuring booking and gallery sections, responsive navigation, hover effects and modal interactions.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://bhoomikara.github.io/Tourist_Travel_/" target="_blank">Live Demo &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div>
+                    <div class="project-header">
+                        <span class="project-repo">bhoomikara.github.io/Memory_Card_Game</span>
+                        <span class="project-number">03</span>
+                    </div>
+                    <h3>Memory Card Game</h3>
+                    <p>Interactive browser game with timer and move tracking, difficulty selection and JavaScript-based game logic.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://bhoomikara.github.io/Memory_Card_Game/" target="_blank">Live Demo &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div>
+                    <div class="project-header">
+                        <span class="project-repo">bhoomikara.github.io/Music_Player_</span>
+                        <span class="project-number">04</span>
+                    </div>
+                    <h3>Music Player</h3>
+                    <p>Interactive music player with play, pause, next, previous, volume, shuffle and repeat controls.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://bhoomikara.github.io/Music_Player_/" target="_blank">Live Demo &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= DESIGN PHILOSOPHY ================= -->
+    <section id="philosophy">
+        <span class="section-tag">My Approach</span>
+        <h2 class="section-title">Design Philosophy</h2>
+        <div class="philosophy-grid">
+            <div class="philosophy-card">
+                <div class="philosophy-num">01</div>
+                <h4>RESPONSIVE</h4>
+                <p>Interfaces that work smoothly across desktop, tablet and mobile.</p>
+            </div>
+            <div class="philosophy-card">
+                <div class="philosophy-num">02</div>
+                <h4>INTERACTIVE</h4>
+                <p>Thoughtful JavaScript interactions and UI behaviour.</p>
+            </div>
+            <div class="philosophy-card">
+                <div class="philosophy-num">03</div>
+                <h4>CONTINUOUSLY LEARNING</h4>
+                <p>Strengthening JavaScript and currently learning React.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-card">
+                <h3>Master of Computer Applications (MCA)</h3>
+                <div class="company">JAIN (Deemed-to-be University), JAIN Online</div>
+                <div class="date">Final Year · Jul 2024 – Expected 2026 (Results Not Yet Announced)</div>
+            </div>
+            <div class="timeline-card">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <div class="company">Vidyavahini First Grade College, Tumkur</div>
+                <div class="date">Completed · 2021 – 2024</div>
+            </div>
+        </div>
+
+        <!-- CERTIFICATIONS -->
+        <div class="cert-section">
+            <h3 class="cert-heading">Certifications</h3>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <h4>Front-End Development Internship</h4>
+                    <span>Cognifyz Technologies · 2025</span>
+                </div>
+                <div class="cert-item">
+                    <h4>Full Stack Web Development Internship</h4>
+                    <span>Unified Mentors Pvt. Ltd. · 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact-section">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">GET IN TOUCH</h2>
+
+        <div class="contact-header">
+            <p>I'm currently looking for full-time Front-End Developer and Web Developer opportunities. Feel free to reach out through any channel below.</p>
+        </div>
+
+        <div class="contact-details-grid">
+            <div class="detail-item">
+                <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+                <div class="detail-content">
+                    <h4>Email</h4>
+                    <a href="mailto:bhoomikara916@gmail.com">bhoomikara916@gmail.com</a>
+                </div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="detail-content">
+                    <h4>Phone</h4>
+                    <a href="tel:+916361875398">+91 63618 75398</a>
+                </div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="detail-content">
+                    <h4>Location</h4>
+                    <p>Tumkur, Karnataka, India</p>
+                </div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-icon"><i class="fas fa-briefcase"></i></div>
+                <div class="detail-content">
+                    <h4>Availability</h4>
+                    <p>Open to Full-Time Roles</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-socials">
+            <h4>Find Me Online</h4>
+            <div class="social-icons-row">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/bhoomikara" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:bhoomikara916@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="availability-badge">
+                <span class="availability-dot"></span>
+                Available for opportunities
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        &copy; 2026 <strong>Bhoomika R A</strong> · Designed & Built with passion
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>
